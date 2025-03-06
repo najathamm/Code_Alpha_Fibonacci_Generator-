@@ -1,7 +1,7 @@
 def fibonacci_up_to_value(max_value):
-    """
-    Generate a Fibonacci sequence up to a specified maximum value.
-    """
+    
+    #Generate a Fibonacci sequence up to a specified maximum value.
+    
     fib_sequence = []
     a, b = 0, 1
     while a <= max_value:
@@ -10,9 +10,9 @@ def fibonacci_up_to_value(max_value):
     return fib_sequence
 
 def fibonacci_large_numbers(n):
-    """
-    Generate the first `n` Fibonacci numbers, handling large numbers.
-    """
+    
+    #Generate the first `n` Fibonacci numbers, handling large numbers.
+    
     fib_sequence = []
     a, b = 0, 1
     for _ in range(n):
